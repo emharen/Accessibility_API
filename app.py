@@ -58,3 +58,6 @@ def zones():
 
     return jsonify(restaurant)
 
+
+if __name__ == "__main__": 
+    app.run()
