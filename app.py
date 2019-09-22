@@ -26,7 +26,7 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save table reference to a variable
-api_data = Base.classes.yelp_info
+yelp_info = Base.classes.yelp_info
 
 # Create the session link
 session = Session(engine)
