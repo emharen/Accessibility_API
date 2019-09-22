@@ -38,7 +38,7 @@ session = Session(engine)
 #################################################
 
 # API Route
-@app.route("/api")
+@app.route("/")
 def zones():
     
     # Query the API table
