@@ -57,8 +57,7 @@ def zones():
         restaurant.append(zone_dict)
 
     return jsonify(restaurant)
-    print
-
+   
 
 if __name__ == "__main__": 
     app.run()
