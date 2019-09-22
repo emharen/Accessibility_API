@@ -38,7 +38,7 @@ session = Session(engine)
 #################################################
 
 # API Route
-@app.route("/api/accessible")
+@app.route("/api")
 def zones():
     
     # Query the API table
@@ -57,6 +57,7 @@ def zones():
         restaurant.append(zone_dict)
 
     return jsonify(restaurant)
+    print
 
 
 if __name__ == "__main__": 
